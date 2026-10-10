@@ -151,7 +151,11 @@ activemq-data/
 
 # Environments
 .env
+.env.*
+!.env.example
 .envrc
+.drive_data/
+data/
 .venv
 env/
 venv/
@@ -218,3 +222,18 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# AI agent instructions and local agent configuration
+.agents/
+.codex/
+.claude/
+.cursor/
+.gemini/
+.windsurf/
+AGENTS.md
+**/AGENTS.md
+CLAUDE.md
+GEMINI.md
+copilot-instructions.md
+**/copilot-instructions.md
+*.agent.md
